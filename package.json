@@ -1,0 +1,23 @@
+{
+  "name": "terminalapp",
+  "preferGlobal": true,
+  "bin": "./contact.js",
+  "version": "1.0.0",
+  "description": "A command-line application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "commander": "^2.15.1",
+    "http-client": "^4.3.1",
+    "inquirer": "^5.2.0",
+    "mongoose": "^5.0.16",
+    "request": "^2.85.0",
+    "terminal-table": "0.0.12"
+  }
+}
